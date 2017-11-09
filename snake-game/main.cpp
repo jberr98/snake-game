@@ -13,7 +13,7 @@ int longitud=5;                          //tamaño de la serpiente
 int xa[1800],ya[1800];                   //posiciones de la serpiente
 char tecla;                              //tecla presionada
 
-COORD coord={0,0};
+COORD coord={0,0};                       // coordenadas
 void gotoxy(int x,int y)
 {
     coord.X=x;
